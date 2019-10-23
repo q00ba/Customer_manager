@@ -5,6 +5,12 @@
 <html>
 	<head>
 		<title>List Customers</title>
+		
+		<!-- reference style sheet -->
+		
+		<link type="text/css" rel="stylesheet" 
+			href="${pageContext.request.contextPath}/resources/css/style.css" />
+		
 	</head>
 	
 	<body>
@@ -13,7 +19,6 @@
 			<div id ="header">
 				<h2> CM - Customer Manager</h2>
 			</div>
-		
 		<div id="container">
 			<div id="content">
 			
@@ -29,7 +34,6 @@
 					<c:forEach var="tempCustomer" items="${customers }">
 					
 						<tr>
-						
 							<td> ${tempCustomer.firstName} </td>
 							<td> ${tempCustomer.lastName} </td>
 							<td> ${tempCustomer.email} </td>
@@ -44,7 +48,6 @@
 		</div>
 		
 		</div>
-	
 	
 	</body>
 </html>
