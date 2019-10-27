@@ -60,16 +60,10 @@
 				<div style="clear; both;"></div>
 				
 				<p>
-					<a href="${PageContext.request.contextPath }/customer/list">Back to list</a>
+					<a href="${pageContext.request.contextPath }/customer/list">Back to list</a>
 				</p>		
 		</div>
 	
-	
-	
-	
-	
 	</body>
-
-
 
 </html>
