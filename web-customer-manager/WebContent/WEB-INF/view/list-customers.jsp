@@ -10,7 +10,7 @@
 		
 		<link type="text/css" rel="stylesheet" 
 			href="${pageContext.request.contextPath}/resources/css/style.css" />
-		
+				
 	</head>
 	
 	<body>
@@ -21,6 +21,12 @@
 			</div>
 		<div id="container">
 			<div id="content">
+			
+			<!-- button : Add Customer -->
+			
+			<input type="button" value="Add Customer" 
+				onclick="window.location.href='showFormForAdd'; return false" 
+				class="add-button"/>
 			
 				<table>
 					<tr>
