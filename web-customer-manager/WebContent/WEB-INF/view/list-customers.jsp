@@ -50,7 +50,7 @@
 							<td> ${tempCustomer.email} </td>
 							
 							<td>
-								<a href="${updateLink }">Update</a>
+								<a href="${updatelink }">Update</a>
 							</td>
 						</tr>
 					
